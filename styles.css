@@ -1,0 +1,60 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    display:block;
+    margin: auto 100;
+    color: #432818;
+}
+
+button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a {
+    color: #432818;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #ffe6a7;
+    color: #432818;
+    font-size: 30px;
+}
+
+.list-container {
+  text-align: left; 
+}
+
+.centered-list {
+    display: inline-block;    /* Center the list as a block */
+    list-style-position: outside; /* Bullets stay outside text */
+    padding-left: 1.5em;      /* Space for bullets */
+    text-align: left;         /* Keep text aligned left inside the centered UL */
+    margin: 0;
+}
+
+.centered-list li {
+  margin: 0.5em 0;
+  padding-bottom: 5px;
+}
+
+li::marker {
+    color: #6f1d1b;
+}
+
+
